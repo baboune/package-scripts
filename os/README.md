@@ -25,7 +25,7 @@ The pre-generated image can be downloaded from:
 It can be loaded into the cluster using APC:
 
 ```
-apc package from file rootfs.tar.gz "Buildroot Linux" --provides="os=buildroot" --environment="PATH=\$PATH:/bin:/sbin:/usr/bin:/usr/sbin" --batch
+apc package from file rootfs.tar.gz "Buildroot-Linux" --provides="os.buildroot" --environment="PATH=\$PATH:/bin:/sbin:/usr/bin:/usr/sbin" --batch
 ```
 
 ## Common Libraries
